@@ -1,5 +1,5 @@
 # XSS spider
-Spider for forms and test XSS based on wordlists (script is prepped for SQL injection as well, but not yet fully implemented).
+Spider for HTML forms and inputs, testing XSS based on a wordlists (script is prepped for SQL injection as well, but not yet fully implemented).
 
 This also serves as example / tutorial project for using scrapy - which is a dynamic framework to quickly create such tools on-the-fly. 
 
