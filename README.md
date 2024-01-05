@@ -1,5 +1,7 @@
-# xss-spider
+# XSS spider
 Spider for forms and test XSS based on wordlists (script is prepped for SQL injection as well, but not yet fully implemented).
+
+This also serves as example / tutorial project for using scrapy - which is a dynamic framework to quickly create such tools on-the-fly. 
 
 This script incorporates:
 
@@ -12,3 +14,20 @@ This script incorporates:
 
 I adapted it only to one VulnHub machine yet: https://www.vulnhub.com/entry/pentester-lab-xss-and-mysql-file,66/
 I also compiled a custom XSS wordlist with 400 entries.
+
+## scrapy
+https://scrapy.org/
+
+Scrapy is a Python-based web scraping framework that enables efficient extraction of data from websites.
+
+With scrapy it's important to use the framework cli tools, otherwise you'll be busy creating lots of boilerplate - which misses the point of the framework. It's meant to be used in the field, quickly build your own spider and adapt it to your needs.
+
+```bash
+$ pip3 install scrapy
+$ scrapy startproject myproject
+$ scrapy genspider myspider 192.168.2.57
+$ scrapy crawl myspider
+$ scrapy crawl myspider -o output.json
+$ scrapy shell url
+$ scrapy list
+```
