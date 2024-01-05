@@ -12,8 +12,9 @@ This script incorporates:
 - Output needs overhaul, scrapy's loglevel doesn't provide enough granularity to do what we would need
 - script may fail for other reasons as well - this was a quick side project, but hopefully will help you
 
-I adapted it only to one VulnHub machine yet: https://www.vulnhub.com/entry/pentester-lab-xss-and-mysql-file,66/
-I also compiled a custom XSS wordlist with 400 entries.
+I adapted it only to one VulnHub machine yet:    
+https://www.vulnhub.com/entry/pentester-lab-xss-and-mysql-file,66/   
+There's also a custom XSS wordlist with 400 entries.
 
 ## scrapy
 https://scrapy.org/
