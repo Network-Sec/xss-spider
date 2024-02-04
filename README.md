@@ -4,11 +4,15 @@ Spider for HTML forms and inputs, testing XSS based on a wordlists (script is pr
 This also serves as example / tutorial project for using scrapy - which is a dynamic framework to quickly create such tools on-the-fly. 
 
 This script incorporates:
-
-- Conversion of a standard XSS wordlist, to be able to evaluate success in a Chromedriver browser
+- Conversion of a standard XSS wordlist
+- Evaluating success in a Chromedriver browser
 - Spidering a URL
 - Automatic discovery of possible inputs, including forms
+- Automatic test of `XSS`
+- Re-use of `original url params` - this is often important, cause many forms only will validate for certain, preset params
 - Same for basic SQL injections, but I never truly worked this out - it's a starting point
+
+Possible issues:
 - Output needs overhaul, scrapy's loglevel doesn't provide enough granularity to do what we would need
 - script may fail for other reasons as well - this was a quick side project, but hopefully will help you
 
